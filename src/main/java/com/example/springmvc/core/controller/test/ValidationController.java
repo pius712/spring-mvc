@@ -1,6 +1,6 @@
-package com.example.springmvc.core.controller;
+package com.example.springmvc.core.controller.test;
 
-import com.example.springmvc.core.controller.request.TestRequestDto;
+import com.example.springmvc.core.controller.test.request.TestRequestDto;
 import com.example.springmvc.core.support.error.CoreException;
 import com.example.springmvc.core.support.error.CoreExceptionType;
 import com.example.springmvc.core.support.error.TypeException;

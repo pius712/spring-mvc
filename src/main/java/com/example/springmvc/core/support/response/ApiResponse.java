@@ -13,9 +13,6 @@ public record ApiResponse<T>(ResultType result, T data, ErrorInfo error) {
         return new ApiResponse<>(ResultType.SUCCESS, result, null);
     }
 
-    public static ApiResponse<Void> fail() {
-        return new ApiResponse<>(ResultType.FAIL, null, null);
-    }
 
     public static ApiResponse<Void> fail(ExceptionType exceptionType) {
         return new ApiResponse<>(ResultType.FAIL, null, new ErrorInfo(exceptionType));
